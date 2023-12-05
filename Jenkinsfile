@@ -1,14 +1,14 @@
 pipeline{
     agent any
     stages {
-        stage('sprint1') {
+        stage('hotfix') {
             steps {
-                sh 'echo "this is sprint1 changes" '
+                sh 'echo "this is hotfix changes" '
             }
         }
         stage('test') {
             steps {
-                sh 'echo "sprint1 applicaiton....." '
+                sh 'echo "hotfix applicaiton....." '
             }
         }
         stage('deploy application') {
