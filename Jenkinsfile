@@ -1,9 +1,9 @@
 pipeline{
     agent any
     stages {
-        stage('hotfix') {
+        stage('hotfix updated') {
             steps {
-                sh 'echo "this is hotfix changes" '
+                sh 'echo "this is hotfix changes updated successfully" '
             }
         }
         stage('test') {
